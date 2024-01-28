@@ -28,5 +28,10 @@ mod tests {
     }
 }
 fn main() {
-    println!("Hello, world!");
+    // Input age, "Enter Age: "
+    // Input resting_heart_rate, "Enter Resting Heart Rate: "
+
+    // Loop from 55 to 95, increment 5
+    // calculate heart rate
+    // display formatted
 }
