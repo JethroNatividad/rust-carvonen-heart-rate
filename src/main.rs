@@ -57,4 +57,8 @@ fn main() {
     // Loop from 55 to 95, increment 5
     // calculate heart rate
     // display formatted
+
+    for i in (55..100).step_by(5) {
+        println!("{}", i)
+    }
 }
