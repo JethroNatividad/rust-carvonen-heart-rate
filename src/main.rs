@@ -3,6 +3,8 @@
 // Process: loop from 55 - 95, increment by 5. Use carvonen formula to calculate heart rate.
 // Output: The intensity percentage and heart rate
 
+fn calculate_heart_rate(age: i32, resting_heart_rate: i32, intensity_percentage: i32) -> i32 {}
+
 #[cfg(test)]
 mod tests {
     use super::*;
