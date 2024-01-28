@@ -9,7 +9,7 @@ fn calculate_heart_rate(age: i32, resting_heart_rate: i32, intensity_percentage:
         * (intensity_percentage as f32 / 100.0))
         + resting_heart_rate as f32;
 
-    target_heart_rate as i32
+    target_heart_rate.round() as i32
 }
 
 #[cfg(test)]
