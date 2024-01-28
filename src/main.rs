@@ -5,6 +5,11 @@
 
 fn calculate_heart_rate(age: i32, resting_heart_rate: i32, intensity_percentage: i32) -> i32 {
     // (((220 − age) − restingHR) × intensity) + restingHR
+    let target_heart_rate: f32 = (((220.0 - age as f32) - resting_heart_rate as f32)
+        * (intensity_percentage as f32 / 100.0))
+        + resting_heart_rate as f32;
+
+    target_heart_rate as i32
 }
 
 #[cfg(test)]
