@@ -7,7 +7,7 @@ fn calculate_heart_rate(age: i32, resting_heart_rate: i32, intensity_percentage:
 
 #[cfg(test)]
 mod tests {
-    use super::*;
+    use super::calculate_heart_rate;
 
     #[test]
     fn test_calculate_heart_rate() {
