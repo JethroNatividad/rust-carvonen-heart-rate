@@ -50,7 +50,9 @@ fn get_input<T: std::str::FromStr>(prompt: &str) -> T {
 
 fn main() {
     // Input age, "Enter Age: "
+    let age: i32 = get_input("Enter Age: ");
     // Input resting_heart_rate, "Enter Resting Heart Rate: "
+    let resting_heart_rate: i32 = get_input("Enter Resting Heart Rate: ");
 
     // Loop from 55 to 95, increment 5
     // calculate heart rate
