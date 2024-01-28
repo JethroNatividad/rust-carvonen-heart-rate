@@ -54,13 +54,13 @@ fn main() {
     // Input resting_heart_rate, "Enter Resting Heart Rate: "
     let resting_heart_rate: i32 = get_input("Enter Resting Heart Rate: ");
 
-    println!("Intensity     |  Rate");
+    println!("Intensity     | Rate");
     println!("--------------|------------");
     // Loop from 55 to 95, increment 5
     for percentage in (55..100).step_by(5) {
         // calculate heart rate
         // display formatted
         let target_heart_rate: i32 = calculate_heart_rate(age, resting_heart_rate, percentage);
-        println!("{}            |  {}", percentage, target_heart_rate);
+        println!("{}%           | {} bpm", percentage, target_heart_rate);
     }
 }
